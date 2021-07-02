@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/adrianpolimeni/static/css/main.f80b54c6.chunk.css",
-    "main.js": "/adrianpolimeni/static/js/main.b1d03429.chunk.js",
-    "main.js.map": "/adrianpolimeni/static/js/main.b1d03429.chunk.js.map",
-    "runtime-main.js": "/adrianpolimeni/static/js/runtime-main.7d7f7de6.js",
-    "runtime-main.js.map": "/adrianpolimeni/static/js/runtime-main.7d7f7de6.js.map",
-    "static/css/2.4c97ca4f.chunk.css": "/adrianpolimeni/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.5c47876e.chunk.js": "/adrianpolimeni/static/js/2.5c47876e.chunk.js",
-    "static/js/2.5c47876e.chunk.js.map": "/adrianpolimeni/static/js/2.5c47876e.chunk.js.map",
-    "index.html": "/adrianpolimeni/index.html",
-    "static/css/2.4c97ca4f.chunk.css.map": "/adrianpolimeni/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.f80b54c6.chunk.css.map": "/adrianpolimeni/static/css/main.f80b54c6.chunk.css.map",
-    "static/js/2.5c47876e.chunk.js.LICENSE.txt": "/adrianpolimeni/static/js/2.5c47876e.chunk.js.LICENSE.txt",
-    "static/media/clockborder.4d2a5bcf.svg": "/adrianpolimeni/static/media/clockborder.4d2a5bcf.svg",
-    "static/media/hourhand.05d75457.svg": "/adrianpolimeni/static/media/hourhand.05d75457.svg",
-    "static/media/minutehand.5c9e2a8f.svg": "/adrianpolimeni/static/media/minutehand.5c9e2a8f.svg",
-    "static/media/secondhand.4215c193.svg": "/adrianpolimeni/static/media/secondhand.4215c193.svg"
+    "main.css": "/static/css/main.f80b54c6.chunk.css",
+    "main.js": "/static/js/main.e6b32eef.chunk.js",
+    "main.js.map": "/static/js/main.e6b32eef.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1b3be1a9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1b3be1a9.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.5c47876e.chunk.js": "/static/js/2.5c47876e.chunk.js",
+    "static/js/2.5c47876e.chunk.js.map": "/static/js/2.5c47876e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.f80b54c6.chunk.css.map": "/static/css/main.f80b54c6.chunk.css.map",
+    "static/js/2.5c47876e.chunk.js.LICENSE.txt": "/static/js/2.5c47876e.chunk.js.LICENSE.txt",
+    "static/media/clockborder.4d2a5bcf.svg": "/static/media/clockborder.4d2a5bcf.svg",
+    "static/media/hourhand.05d75457.svg": "/static/media/hourhand.05d75457.svg",
+    "static/media/minutehand.5c9e2a8f.svg": "/static/media/minutehand.5c9e2a8f.svg",
+    "static/media/secondhand.4215c193.svg": "/static/media/secondhand.4215c193.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7d7f7de6.js",
+    "static/js/runtime-main.1b3be1a9.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.5c47876e.chunk.js",
     "static/css/main.f80b54c6.chunk.css",
-    "static/js/main.b1d03429.chunk.js"
+    "static/js/main.e6b32eef.chunk.js"
   ]
 }
