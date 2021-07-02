@@ -1,0 +1,116 @@
+.mainContainer
+{
+    width: 100%;
+    background-color: #1F1F1F;
+    color:white;
+    height:576px;
+    overflow: hidden;
+}
+
+.headerContainer
+{
+    width: 100%;
+    background-color: #1F1F1F;
+    color:white;
+}
+
+.cityTempContainer
+{
+    width: 100px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.tempContainer
+{
+    display: inline-flex;
+    width: 80px;
+    
+}
+
+.tempTitle
+{
+    font-size: 80px;
+    line-height: 70px;
+
+}
+.deg
+{
+    font-size: 30px;
+    padding-top: 32px;
+}
+
+.weatherIcon
+{
+    width: 80px;
+    height: 80px;
+    margin: 10px 10px;
+    margin-right: -20px;
+    margin-bottom: -20px;
+}
+.weatherIcon2
+{
+    width: 60px;
+    height: 60px;
+    margin: -10px 0px;
+}
+.weatherIcon3
+{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 120px;
+    top: 120px;
+}
+
+
+.weatherContainer
+{
+    padding-top: 10px;
+    width: 100px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.divider
+{
+    margin-left:  20px;
+    margin-right:  20px;
+    margin-top: 10px;
+    height: 1px;
+    background-color: #424242;
+}
+.hourlyContainer
+{
+    padding: 10px 10px 0px 10px;
+    background-color: #1F1F1F;
+}
+.hourlyItem
+{
+    width:60px;
+    height:100px;
+    background-color: #1F1F1F;
+    color:white;
+    text-align: center;
+}
+
+.dailyContainer
+{
+    padding: 15px 20px;
+}
+
+.dailyItem
+{
+    height:40px;
+    line-height: 40px;
+}
+
+.medText
+{
+    font-size: 18px;
+}
+
+.dailyText
+{
+    font-size: 22px;
+    width: 150px;
+}
