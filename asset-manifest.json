@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/adrianpolimeni/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/adrianpolimeni/static/js/main.c46fa768.chunk.js",
+    "main.js.map": "/adrianpolimeni/static/js/main.c46fa768.chunk.js.map",
+    "runtime-main.js": "/adrianpolimeni/static/js/runtime-main.4ef1ac11.js",
+    "runtime-main.js.map": "/adrianpolimeni/static/js/runtime-main.4ef1ac11.js.map",
+    "static/js/2.64116590.chunk.js": "/adrianpolimeni/static/js/2.64116590.chunk.js",
+    "static/js/2.64116590.chunk.js.map": "/adrianpolimeni/static/js/2.64116590.chunk.js.map",
+    "static/js/3.dfd63c2c.chunk.js": "/adrianpolimeni/static/js/3.dfd63c2c.chunk.js",
+    "static/js/3.dfd63c2c.chunk.js.map": "/adrianpolimeni/static/js/3.dfd63c2c.chunk.js.map",
+    "index.html": "/adrianpolimeni/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/adrianpolimeni/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.64116590.chunk.js.LICENSE.txt": "/adrianpolimeni/static/js/2.64116590.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/adrianpolimeni/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ef1ac11.js",
+    "static/js/2.64116590.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.c46fa768.chunk.js"
+  ]
+}
