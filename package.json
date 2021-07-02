@@ -1,6 +1,6 @@
 {
-  "homepage": "http://adrianpolimeni.github.io",
-  "name": "adrianpolimeni",
+  "homepage": "http://adrianpolimeni.github.io/workspace",
+  "name": "workspace",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

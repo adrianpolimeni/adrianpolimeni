@@ -7,10 +7,10 @@ function Menu() {
     return (
       <ul>
         <li>
-          <Link to="/clock">Clock</Link>
+          <Link to="/workspace/clock">Clock</Link>
         </li>
         <li>
-          <Link to="/weather">Weather</Link>
+          <Link to="/workspace/weather">Weather</Link>
         </li>
       </ul>
     );

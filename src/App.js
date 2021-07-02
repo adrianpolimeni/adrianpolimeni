@@ -16,13 +16,13 @@ function App() {
   return (
     <Router>
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/workspace">
             <Menu />
           </Route>
-          <Route path="/clock">
+          <Route path="/workspace/clock">
             <Clock />
           </Route>
-          <Route path="/weather/:city">
+          <Route path="/workspace/weather/:city">
             <Weather />
           </Route>
         </Switch>

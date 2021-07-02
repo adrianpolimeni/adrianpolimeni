@@ -71,8 +71,8 @@ export const Clock = () => {
     <div style={{backgroundColor:"#1F1F1F"}}>
     <Router>
     <Switch>
-      <Route path="/clock/:city1/:TZ1/:city2/:TZ2/:city3/:TZ3/:city4/:TZ4" children={<ExpandedClock/>}/>
-      <Route path="/clock" children={<SingleClock/>}/>
+      <Route path="/workspace/clock/:city1/:TZ1/:city2/:TZ2/:city3/:TZ3/:city4/:TZ4" children={<ExpandedClock/>}/>
+      <Route path="/workspace/clock" children={<SingleClock/>}/>
     </Switch>
     </Router>
     </div>
