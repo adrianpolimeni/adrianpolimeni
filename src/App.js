@@ -14,8 +14,7 @@ import Weather from "./pages/Weather";
 
 function App() {
   return (
-    <p>Test Adrian Polimeni</p>
-    /*<Router>
+    <Router>
         <Switch>
           <Route exact path="/workspace">
             <Menu />
@@ -27,7 +26,7 @@ function App() {
             <Weather />
           </Route>
         </Switch>
-    </Router>*/
+    </Router>
   );
 }
 

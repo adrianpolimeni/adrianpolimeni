@@ -10,7 +10,7 @@ function Menu() {
           <Link to="/workspace/clock">Clock</Link>
         </li>
         <li>
-          <Link to="/workspace/weather">Weather</Link>
+          <Link to="/workspace/weather/London">Weather</Link>
         </li>
       </ul>
     );
