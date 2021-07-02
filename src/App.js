@@ -14,15 +14,15 @@ import Weather from "./pages/Weather";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/workspace">
         <Switch>
-          <Route exact path="/workspace">
+          <Route exact path="/">
             <Menu />
           </Route>
-          <Route path="/workspace/clock">
+          <Route path="/clock">
             <Clock />
           </Route>
-          <Route path="/workspace/weather/:city">
+          <Route path="/weather/:city">
             <Weather />
           </Route>
         </Switch>

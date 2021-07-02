@@ -5,7 +5,7 @@ import {
 } from "react-router-dom";
 
 import './Weather.css';
-import { Card, Grid, GridList } from "@material-ui/core";
+import { Grid } from "@material-ui/core";
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';

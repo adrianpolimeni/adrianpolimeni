@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row } from "react-bootstrap";
 import ClockBorder from './resources/clockborder.svg';
 import HourHand from './resources/hourhand.svg';
 import MinuteHand from './resources/minutehand.svg';

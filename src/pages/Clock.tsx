@@ -1,5 +1,5 @@
 
-import { Card, Grid, Fade } from "@material-ui/core";
+import { Grid, Fade } from "@material-ui/core";
 import React from "react";
 import AnalogClock from "../components/AnalogClock";
 import "./Clock.css"
@@ -69,10 +69,10 @@ export const Clock = () => {
 
   return (
     <div style={{backgroundColor:"#1F1F1F"}}>
-    <Router>
+    <Router basename="/workspace">
       <Switch>
-        <Route path="/workspace/clock/:city1/:TZ1/:city2/:TZ2/:city3/:TZ3/:city4/:TZ4" children={<ExpandedClock/>}/>
-        <Route path="/workspace/clock" children={<SingleClock/>}/>
+        <Route path="/clock/:city1/:TZ1/:city2/:TZ2/:city3/:TZ3/:city4/:TZ4" children={<ExpandedClock/>}/>
+        <Route path="/clock" children={<SingleClock/>}/>
       </Switch>
     </Router>
     </div>
