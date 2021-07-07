@@ -9,6 +9,7 @@ import {
 import Menu from "./pages/Menu";
 import Clock from "./pages/Clock";
 import Weather from "./pages/Weather";
+import Tasks from "./pages/Tasks";
 
 
 function App() {
@@ -22,6 +23,9 @@ function App() {
       </Route>
       <Route path="/weather/:city">
         <Weather />
+      </Route>
+      <Route path="/tasks">
+        <Tasks />
       </Route>
     </Switch>
   );

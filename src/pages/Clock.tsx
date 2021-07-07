@@ -37,8 +37,10 @@ export const Clock = () => {
 
   const SingleClock = () => 
   {
+    let d = new Date();
+    
     return(
-      <AnalogClock timeZone={0}/>
+      <AnalogClock timeZone={-(d.getTimezoneOffset()/60)}/>
     );
   }
 

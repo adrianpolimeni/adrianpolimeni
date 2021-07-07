@@ -12,6 +12,9 @@ function Menu() {
         <li>
           <Link to="/weather/London">Weather</Link>
         </li>
+        <li>
+          <Link to="/tasks">Tasks</Link>
+        </li>
       </ul>
     );
   }

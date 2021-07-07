@@ -1,0 +1,76 @@
+
+.header
+{
+    font-size: 40px;
+    padding: 30px;
+    background-color: #1F1F1F;
+    color:white;
+    text-align: center;
+    line-height: 30px;
+    width: 100px;
+}
+
+.task-number
+{
+    font-size: 50px;
+}
+
+.task-small
+{
+    font-size: 22px;
+}
+
+.task-list
+{
+    width: calc(100% - 100px);
+    height: 1000px;
+    background-color: #1F1F1F;
+    padding: 20px 0px;
+    overflow: hidden;
+}
+.divider
+{
+    height: 2px;
+    background-color: gray;
+    margin: 0px 20px;
+}
+
+.task-item
+{
+    background-color: #1F1F1F;
+    color:white;
+    line-height: 64px;
+    padding: 0px 10px;
+    font-size: 28px;
+}
+
+.complete-button
+{
+    width:64px;
+    height:64px;
+    padding: 10px;
+    margin-right: 10px;
+
+}
+button {
+    background: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+  }
+  
+  button:hover {
+    background: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+  }
+  
+  button:active {
+    outline: none;
+    border: none;
+  }
+  
+  button:focus {
+    outline: 0;
+  }
