@@ -21,7 +21,7 @@ import {
 
 
 const clientId = "eda3b64588f64c89b87ec0cba023ae4a";
-const redirectUri = "http://localhost:3000";
+const redirectUri = "https://adrianpolimeni.github.io/workspace/";
 const scopes = [
     "user-read-currently-playing",
     "user-read-playback-state",
