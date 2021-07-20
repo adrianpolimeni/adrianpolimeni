@@ -295,7 +295,7 @@ export const Music = () => {
         );
     }
 
-    const LogIn = () =>
+    const Redirect = () =>
     {
         let url = `${AUTH}?client_id=${clientId}&response_type=token&redirect_uri=${redirectUri}&scope=${scopes.join("%20")}`;
         return(
@@ -303,11 +303,22 @@ export const Music = () => {
         );
     }
 
+    const Login = () =>
+    {
+        let url = `${AUTH}?client_id=${clientId}&response_type=token&redirect_uri=${redirectUri}&scope=${scopes.join("%20")}`;
+        return(
+            <div className="main">
+                <div className="login">Login to Spotify</div>
+            </div>
+        );
+    }
+
     return(
         
         <div>
             <Switch>    
-                <Route path="/music" children={<LogIn/>}/>   
+                <Route path="/music/login" children={<Login/>}/>
+                <Route path="/music" children={<Redirect/>}/>   
                 <Route path="/:responseToken" children={<MusicViewer/>}/>
             </Switch>
         </div>
