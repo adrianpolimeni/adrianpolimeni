@@ -30,8 +30,10 @@ export const Tasks = () => {
             {text: "Wash the car", isComplete: true},
             {text: "Pay electrical bill ", isComplete: false},
             {text: "Hand in assignment", isComplete: false},
-            {text: "Make reservations at Pizzaria Italia for 7:00", isComplete: false},
+            {text: "Make reservations at Pizzaria Italia", isComplete: false},
             {text: "Mow the lawn", isComplete: false},
+            {text: "Workout", isComplete: false},
+            {text: "Get AA batteries", isComplete: false},
         ]);
     });
 
@@ -49,7 +51,7 @@ export const Tasks = () => {
                     }}>
                     <img className="complete-button"src={task.isComplete ? Completed : ToDo } />
                 </button>
-                <p>{task.text}</p>
+                <p className="task-text">{task.text}</p>
             </Grid>
         )
     }
@@ -59,7 +61,7 @@ export const Tasks = () => {
         <Grid container direction="row">
             <div className="header">
                 <p className="task-number">{tasks.length}</p>
-                <p className="task-small">Tasks</p> 
+                <div className="task-small">Tasks</div> 
             </div>
             <div className="task-list">
                 {tasks.map((item, index) => {
