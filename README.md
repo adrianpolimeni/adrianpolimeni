@@ -1,18 +1,34 @@
-# Getting Started with Create React App
+# Interactive Workspace Sidebar-Components
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project contains interactive side-bar components for use in AR applications. These components are built using the React framework (Typescript) and other thrid-party API such as Spotify API.
+
+## Screenshots / Demos
+
+| World Clocks       | Reminders                  | Weather              |   
+|------------------|------------------------|---------------------|
+| World Clocks using JavaScript's built-in Date.UTC() functions | Basic manager for checking off tasks  | Current Weather for a city as specified in the URL. Example: `http://localhost:3000/#/weather/Toronto` will show Toronto Canada's forcast when running a dev build. All weather data is fetched from [openweathermap.org](https://openweathermap.org/). |   |   |
+| <img src='https://github.com/adrianpolimeni/workspace/blob/main/public/screenshots/Clock.gif' width='240'>  | <img src='https://github.com/adrianpolimeni/workspace/blob/main/public/screenshots/Tasks.gif' width='260'>   | <img src='https://github.com/adrianpolimeni/workspace/blob/main/public/screenshots/Weather.gif' width='420'>  |  
+
+| Spotify Player |
+|:----------------:|
+| This music player widget uses the Spotify API to view and control songs being streamed on other devices. The demo below shows songs within a playlist being skipped. *Left: Widget displaying album art, titles, and controls. Right: Spotify Desktop App which is outputting the audio on a separate device.*     |
+| <img src='https://github.com/adrianpolimeni/workspace/blob/main/public/screenshots/SpotifyPlayer.gif' width='716'> |
+| *Note: A Spotify Premium account is needed for full functionality* |
+
 
 ## Available Scripts
 
 In the project directory, you can run:
 
+### `npm install`
+
+Installs all npm dependancies
+See `package.json` for list of dependancies.
+
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
 ### `npm test`
 
@@ -29,42 +45,8 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
